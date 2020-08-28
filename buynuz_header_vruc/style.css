@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin+Sketch&family=Rouge+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------DOP FONTS------*/
+
+
+
+/*------HEADER------*/
+
+header{
+    height: 70px;
+    background-color: #cb183f;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.inner_header{
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    align: left;
+}
+
+.slogan{
+    float: right;
+    margin-top: 22px;
+    margin-left: 15px;
+    color: white;
+    font-family: 'Rouge Script', cursive;
+    font-size: 25px;
+}
+
+.links ul{
+    margin-top: 25px;
+}
+
+.links li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.links li a{
+    text-decoration: none;
+    color: white;
+    transition:  all 0.3s ease 0s;
+}
+
+.links li a:hover{
+    color: thistle;
+}
+
+/*------END OF THE HEADER------*/
+
+/*------LANDING_1------*/
+
+.outter_landing_1{
+    height: 600px;
+    text-align: center;
+    vertical-align: middle;
+    background: url(01.jpg) no-repeat;
+    background-size: cover;
+}
+
+.inner_landing_1{
+    width: 90%;
+    height: 400px;
+    margin: 100px auto;
+    display: inline-block;
+}
+
+.inner_landing_1 .ots_1{
+    width: 10px;
+}
+
+.inner_landing_1 h1{
+    color: #cb183f;
+    font-size: 60px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.inner_landing_1 p{
+    color: #958d8a;
+    font-size: 40px;
+    font-family: 'Rouge Script', cursive;
+}
